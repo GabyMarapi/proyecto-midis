@@ -7,7 +7,7 @@ const SignUp = () => (
     <form>
 
       <div class='field'>
-        <label class='label'>DNI</label>
+        <label class='label has-text-primary'>DNI</label>
         <div class='control'>
           <input class='input' type='number' placeholder='' />
         </div>
@@ -16,7 +16,7 @@ const SignUp = () => (
       <div class='field'>
         <div class='field-body'>
           <div class='field is-expanded'>
-            <label class='label'>Teléfono</label>
+            <label class='label has-text-primary'>Teléfono</label>
             <div class='field has-addons'>
               <p class='control'>
                 <button class='button is-static'>
@@ -33,19 +33,28 @@ const SignUp = () => (
 
 
       <div class='field'>
-        <label class='label'>Contraseña</label>
+        <label class='label has-text-primary'>Contraseña</label>
         <div class='control'>
           <input class='input' type='text' placeholder='' />
         </div>
       </div>
 
       <div class='field'>
-        <label class='label'>Confirmar contraseña</label>
+        <label class='label has-text-primary'>Confirmar contraseña</label>
         <div class='control'>
           <input class='input' type='text' placeholder='' />
         </div>
       </div>
 
+      <div class='field'>
+        <div class="control">
+          <button type='submit' class="button is-primary">Empezar a jugar</button>
+        </div>
+      </div>
+
+      <div class="control">
+        <button class="button is-text has-text-info">Ya tengo cuenta</button>
+      </div>
 
     </form>
   </div>
